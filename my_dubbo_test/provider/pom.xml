@@ -10,22 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mydubbotest-provider</artifactId>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
     <dependencies>
         <dependency>
             <groupId>club.chenzhong</groupId>
             <artifactId>mydubbotest-api</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-client -->
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-client</artifactId>
-            <version>4.3.0</version>
         </dependency>
 
     </dependencies>
